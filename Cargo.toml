@@ -1,0 +1,10 @@
+[package]
+name = "echod"
+version = "0.1.0"
+authors = ["<Brian Martin <brayniac@gmail.com>>"]
+
+[dependencies]
+bytes = { git = "https://github.com/carllerche/bytes", rev = "7edb577d0a" }
+
+[dependencies.mio]
+git = "https://github.com/brayniac/mio"
